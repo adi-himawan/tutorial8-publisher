@@ -10,3 +10,9 @@ Program publisher dan program subscriber memiliki url yang sama karena kedua pro
 #### Commit 2 Screen Capture
 Running RabbitMQ Screen Capture
 ![Running RabbitMQ Screen Capture](/images/running_rabbitmq.png)
+
+#### Commit 3 Screen Capture and Reflection
+Sending and Processing Event Screen Capture
+![Sending and Processing Event Screen Capture](/images/sending_and_processing_event.png)
+
+Setelah program publisher di-run, semua data dalam program publisher akan dikirimkan ke message queue. Kemudian, program subscriber yang terhubung ke message queue yang sama akan menampilkan seluruh data yang telah dikirimkan tadi di console.
