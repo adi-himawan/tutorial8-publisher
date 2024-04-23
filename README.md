@@ -16,3 +16,9 @@ Sending and Processing Event Screen Capture
 ![Sending and Processing Event Screen Capture](/images/sending_and_processing_event.png)
 
 Setelah program publisher di-run, semua data dalam program publisher akan dikirimkan ke message queue. Kemudian, program subscriber yang terhubung ke message queue yang sama akan menampilkan seluruh data yang telah dikirimkan tadi di console.
+
+#### Commit 4 Screen Capture and Reflection
+Monitoring Chart Screen Capture
+![Monitoring Chart](/images/monitoring_chart.png)
+
+Spike yang muncul pada chart di atas menunjukkan adanya peningkatan message rates. Hal ini bisa terjadi karena program publisher yang di-run berulang kali akan secara tidak langsung meningkatkan jumlah message yang dikirimkan. Alhasil, terjadi spike pada RabbitMQ sebagai message queue.
